@@ -1,0 +1,23 @@
+.home-general-div {
+    height: calc(100vh - 70px);
+    padding: 7px 15px;
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+
+}
+
+.home-container {
+    width: 100%;
+}
+
+.home-description-text {
+    margin-left: 18px;
+    font-family: 'Open Sans';
+    font-size: medium;
+    font-weight: 600;
+}
+.home-most-read-card-div{
+    height: 100%;
+}

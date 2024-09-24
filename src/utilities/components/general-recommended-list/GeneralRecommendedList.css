@@ -1,0 +1,46 @@
+.general-recommended-list-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 5px;
+    position: relative;
+    border-radius: 15px;
+}
+.general-recommended-list-card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 2px;
+}
+.general-recommended-list-card:hover{
+    opacity: 0.8;
+    background-color: rgb(225, 225, 224);
+}
+.general-recommended-list-image{
+    width: 140px;
+    height: 100px;
+    border-radius: 5px;
+}
+.general-recommended-list-title-and-text-container{
+    width: 100%;
+    padding: 2px;
+    height:100px;
+    overflow: hidden;
+
+}
+.general-recommended-list-title{
+    font-weight: 600;
+    height:100px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.general-recommended-list-play-icon{
+    display: flex;
+    position: absolute;
+    left: 60px;
+  
+}

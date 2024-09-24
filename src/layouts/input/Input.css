@@ -1,0 +1,124 @@
+.search-input {
+    border-radius: 15px;
+    border: none;
+    width: 85%;
+    min-width: 50px;
+    height: 33px;
+    padding-left: 10px;
+    font-family: 'Open Sans';
+}
+
+.search-input-recommended {
+    width: 83.7%;
+    height: auto;
+    top: 38px;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 2px;
+    position: absolute;
+    background-color: rgb(245, 249, 249);
+    z-index: 4;
+    border: 1px gray solid;
+
+
+}
+
+.search-input-recommended-item {
+    width: 100%;
+    height: auto;
+    padding-left: 1%;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    margin: 5px 0px;
+    font-weight: 600;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+}
+
+.search-input-recommended-item:hover {
+    background-color: rgb(215, 218, 218);
+}
+
+.search-input:focus {
+    outline: none;
+
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.search-input-form {
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    position: relative;
+
+}
+
+.search-button {
+    border: none;
+    border-radius: 15px;
+    margin-left: 2px;
+    height: 33px;
+    width: 35px;
+    background-color: #ffd740;
+    color: black;
+    font-size: large;
+}
+
+.search-button:disabled {
+    opacity: 0.8;
+}
+
+.search-icon {
+    font-size: large;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* .search-button {
+        height: 33px;
+        width: 15%;
+        font-size: small;
+    } */
+
+    .search-input {
+        width: 65%;
+        min-width: 50px;
+        height: 33px;
+    }
+
+    .search-input-recommended {
+        width: 63%;
+    }
+
+}
+
+@media only screen and (max-width: 460px) {
+
+    /* .search-button {
+        height: 33px;
+        width: 16%;
+        font-size: 8px;
+        padding: 2px 2px 2px 2px;
+    } */
+
+    .search-input {
+        width: 85%;
+        min-width: 20px;
+        height: 33px;
+    }
+    .search-input-recommended{
+        width: 80%;
+    }
+}
+
+.input-item-gray{
+    background-color: rgb(215, 218, 218);
+}

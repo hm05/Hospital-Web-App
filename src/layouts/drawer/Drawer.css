@@ -1,0 +1,120 @@
+.drawer-general-div {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 70px);
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 2px 2px 10px  rgba(170, 167, 167, 0.8); 
+}
+.drawer-general-div2 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 70px);
+    background-color: white;
+    
+}
+
+.drawer-item-container {
+    display: flex;
+    width: 95%;
+    overflow: hidden;
+    border-radius: 15px;
+    align-items: center;
+    margin: 7px 7px 10px 7px;
+    padding: 5px 5px 5px 0px;
+    min-width: 200px;  
+    
+}
+
+
+.drawer-item-container-when-close-drawer {
+    display: flex;
+    width: 95%;
+    border-radius: 15px;
+    align-items: center;
+    margin: 7px 7px 10px 7px;
+    padding: 5px 5px 5px 0px;
+}
+
+.drawer-item-container:hover {
+    background-color: #e4dada;
+    border-radius: 15px;
+}
+
+.drawer-menu-icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: large;
+    background-color: #ffd740;
+    padding: 5px;
+    border-radius: 15px;
+}
+.drawer-menu-icon-when-close-drawer {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: large;
+    background-color: #ffd740;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.drawer-menu-icon-when-close-drawer:hover {
+    background-color: #cba92e;
+}
+
+.drawer-menu-text {
+    margin-left: 5px;
+    font-size: large;
+    font-family: 'Open Sans';
+    font-weight: 600;
+
+}
+
+.drawer-general-div::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+
+}
+.drawer-general-div :hover::-webkit-scrollbar {
+    display:contents;
+
+}
+
+.drawer-general-div2::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+
+}
+.drawer-general-div2:hover::-webkit-scrollbar {
+    display:contents;
+
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+    scroll-behavior: smooth;
+
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px white;
+    border-radius: 100%;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(168, 168, 167,0.6);
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #bab9b9;
+  
+}
+
+@media only screen and (max-width:606px){
+    .drawer-general-div {
+       
+        width: 50vw;
+    }
+    
+}
